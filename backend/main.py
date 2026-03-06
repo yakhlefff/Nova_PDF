@@ -3,9 +3,9 @@ from fastapi.responses import FileResponse
 import shutil
 import os
 
-from services.replace_service import replace_text
-from services.markup_service import highlight_text
-from services.overlay_service import add_text_overlay
+from backend.services.replace_service import replace_text
+from backend.services.markup_service import highlight_text
+from backend.services.overlay_service import add_text_overlay
 
 app = FastAPI()
 
